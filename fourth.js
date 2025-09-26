@@ -106,6 +106,32 @@ console.log("deleted",deletedItems);*/
 // console.log(heroes);
 
 
-let marvelHeroes=["thor","spiderman","ironman"];
-let heroes=marvelHeroes.unshift("antman");
-console.log(heroes);
+// let marvelHeroes=["thor","spiderman","ironman"];
+// let heroes=marvelHeroes.unshift("antman");
+// console.log(heroes);
+
+
+// let marvelHeroes=["thor","spiderman","ironman"];
+// let val=marvelHeroes.shift();
+// console.log("deleted",val);
+
+// let marvelHeroes=["thor","spiderman","ironman","antman","Dr. Strange"];
+// console.log(marvelHeroes);
+// console.log(marvelHeroes.slice(1,3));
+
+
+// let arr=[1,2,3,4,5,6,7];
+// arr.splice(2,2,101,102);               //replace element
+
+// arr.splice(2,0,101);                   //add element
+
+// arr.splice(3,1);                         //delete element
+
+// arr.splice(3,1,101);                      //replace element
+
+
+//Practice Q
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.shift();                       //removes form start
+companies.splice(2,1,"Ola");              //replace element
+companies.push("Amazon");                 //add element at end
